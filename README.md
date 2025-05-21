@@ -1,8 +1,15 @@
 # gonce
+
 Generic `Once.Do` with returning an element and repeat in case of error.
-Similar to [sync.Once](https://pkg.go.dev/sync#Once). 
+Similar to [sync.Once](https://pkg.go.dev/sync#Once).
+
+The repository is archived because the feature is fully implemented.
 
 ## Usage
+
+```shell
+go get github.com/sv-tools/gonce
+```
 
 ```go
 o := Once[int64]{}
